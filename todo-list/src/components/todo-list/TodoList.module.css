@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  overflow: scroll;
+  overflow-x: hidden;
+  max-height: 60%;
+  height: auto;
+  width: 80%;
+  border: 2px solid rgb(225, 225, 225);
+  margin-top:20px;
+  margin-left: 40px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  background-color: rgb(225, 225, 225);
+}  
+
+.container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+.button{
+  width: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 220px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: rgb(216, 220, 221);
+}
+.loading{
+  width: auto;
+  height: auto;
+  font-size: 17px;
+  margin-left: 220px;
+}
